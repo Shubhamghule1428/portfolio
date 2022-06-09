@@ -10,10 +10,7 @@ const portfolio = () => {
       <div className="container portfolio_container">
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img
-              src="https://unsplash.com/s/photos/face-mask"
-              alt="face mask"
-            />
+            <img src="https://unsplash.com/s/photos/coding" alt="CODING" />
           </div>
           <a
             href="https://github.com/Shubhamghule1428"
