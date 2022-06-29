@@ -1,11 +1,12 @@
 .about_container {
   display: grid;
-  grid-template-columns: 35% 50%;
+  grid-template-columns: 45% 55%;
   gap: 15%;
 }
 
 .about_me {
   width: 100%;
+  /* height: 86%; */
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(
@@ -20,15 +21,16 @@
 
 .about_me-image {
   border-radius: 2rem;
-  aspect-ratio: 1/1;
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
-  /* width: auto; */
+  aspect-ratio: 1/1;
+  width: 100%;
 }
-img {
+.about_me-image img {
   display: block;
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
