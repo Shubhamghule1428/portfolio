@@ -10,21 +10,21 @@ import IMG6 from "../../assets/portfolio.png";
 const data = [
   {
     id: 1,
-    image: IMG1,
+    image: IMG2,
     title: "face mask detection using Python",
     github: "https://github.com/Shubhamghule1428",
     demo: "",
   },
   {
     id: 2,
-    image: IMG2,
+    image: IMG3,
     title: "Tic tac toe",
     github: "https://github.com/Shubhamghule1428",
     demo: "",
   },
   {
     id: 3,
-    image: IMG3,
+    image: IMG1,
     title: "voice assistance",
     github: "https://github.com/Shubhamghule1428",
     demo: "",
@@ -40,14 +40,14 @@ const data = [
     id: 5,
     image: IMG5,
     title: "10 JavaScipt Project",
-    github: "https://github.com/Shubhamghule1428",
+    github: "https://github.com/Shubhamghule1428/10_js_project",
     demo: "",
   },
   {
     id: 6,
     image: IMG6,
     title: "Portfolio",
-    github: "https://github.com/Shubhamghule1428",
+    github: "https://github.com/Shubhamghule1428/portfolio",
     demo: "",
   },
 ];
