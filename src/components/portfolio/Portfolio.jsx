@@ -6,6 +6,9 @@ import IMG3 from "../../assets/Tic_tac_toe.png";
 import IMG4 from "../../assets/foodrush.png";
 import IMG5 from "../../assets/10js.png";
 import IMG6 from "../../assets/portfolio.png";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const data = [
   {
@@ -53,24 +56,37 @@ const data = [
 ];
 
 const portfolio = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5 data-aos="fade-up">My Recent Work</h5>
+      <h2 data-aos="fade-up">Portfolio</h2>
 
-      <div className="container portfolio_container">
+      <div data-aos="fade-up" className="container portfolio_container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article key={id} className="portfolio_item">
+            <article data-aos="fade-up" key={id} className="portfolio_item">
               <div className="portfolio_item-image">
-                <img src={image} alt="" />
+                <img data-aos="fade-up" src={image} alt="" />
               </div>
-              <h3>{title}</h3>
+              <h3 data-aos="fade-up">{title}</h3>
               <div className="portfolio_item-cta">
-                <a href={github} className="btn" target="_blank">
+                <a
+                  data-aos="fade-up"
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                >
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
+                <a
+                  data-aos="fade-up"
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                >
                   demo
                 </a>
               </div>

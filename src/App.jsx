@@ -4,10 +4,8 @@ import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
 import Experince from "./components/experince/Experince";
 import Portfolio from "./components/portfolio/Portfolio";
-import Services from "./components/services/Services";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/Footer";
-import Project from "./components/project/Project";
 
 export const App = () => {
   return (
@@ -16,8 +14,6 @@ export const App = () => {
       <Nav />
       <About />
       <Experince />
-      <Project />
-      <Services />
       <Portfolio />
       <Contact />
       <Footer />
