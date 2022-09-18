@@ -33,7 +33,7 @@ const Nav = () => {
         <GiBookshelf />
       </a>
       <a
-        href="#project"
+        href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
